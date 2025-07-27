@@ -1,0 +1,257 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.navbar .logo img {
+    max-width: 120px;
+    height: auto;
+  }
+  .banner-booking {
+    min-height: 60vh;
+    padding: 30px 0;
+  }
+  .banner-content {
+    margin: 80px auto 60px;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+  }
+  .banner-content h6 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .booking-form {
+    flex-direction: column;
+    padding: 18px 5px;
+    gap: 10px;
+  }
+  .booking-form-inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .booking-form input,
+  .booking-form select {
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 10px 8px;
+  }
+  .booking-form button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  .offer-box {
+    border-right: none;
+    padding: 0 5px;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .testimonial-card {
+    padding: 15px;
+  }
+  .call-section h2 {
+    font-size: 1.5rem;
+  }
+  .footer-section .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .col {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-section .logo img {
+    max-width: 120px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.banner-booking {
+    min-height: 70vh;
+    padding: 40px 0;
+  }
+  .banner-content {
+    margin: 100px auto 80px;
+    padding: 0 20px;
+    max-width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .booking-form {
+    flex-direction: column;
+    padding: 25px 10px;
+    gap: 12px;
+  }
+  .booking-form-inputs {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .booking-form input,
+  .booking-form select {
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 12px 10px;
+  }
+  .booking-form button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.05rem;
+  }
+  .offer-box {
+    border-right: none;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .testimonial-card {
+    padding: 20px;
+  }
+  .footer-section .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .col {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.banner-booking {
+    min-height: 80vh;
+    padding: 50px 0;
+  }
+  .banner-content {
+    margin: 120px auto 120px;
+    padding: 0 30px;
+    max-width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 2.3rem;
+    margin-bottom: 25px;
+  }
+  .booking-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 15px;
+    gap: 12px;
+  }
+  .booking-form-inputs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .booking-form input,
+  .booking-form select {
+    min-width: 180px;
+    font-size: 1rem;
+    padding: 12px 10px;
+  }
+  .booking-form button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+  .offer-box {
+    border-right: none;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .testimonial-card {
+    padding: 25px;
+  }
+  .footer-section .col {
+    margin-bottom: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .menu ul li{
+    margin-left: 15px;
+}
+.menu ul li a{
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-content h1 {
+    font-size: 2.8rem;
+  }
+  .banner-content {
+    margin: 180px auto 200px;
+    padding: 0 40px;
+  }
+  .booking-form {
+    padding: 40px 30px;
+  }
+  .offer-box {
+    padding: 0 18px;
+  }
+    .pricing-card {
+    padding: 10px;
+  }
+  .taxi-section {
+    background-position: left center;
+    color: rgb(236, 236, 236);
+  }
+  .testimonial-card {
+    padding: 28px;
+  }
+  .call-section .small-text {
+      font-size: 18px;
+  }
+  .call-section h2 {
+    font-size: 42px;
+  }
+  .call-section .phone-icon {
+      font-size: 36px;
+  }
+  .call-p{
+    font-size: 36px;
+  }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+ .banner-content h1 {
+    font-size: 3rem;
+  }
+  .banner-content {
+    margin: 200px auto 220px;
+    padding: 0 60px;
+  }
+  .offer-box {
+    padding: 0 20px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+.banner-content h1 {
+    font-size: 3.5rem;
+  }
+  .banner-content {
+    margin: 220px auto 250px;
+    padding: 0 80px;
+  }
+  .offer-box {
+    padding: 0 25px;
+  }
+}

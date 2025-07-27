@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Hallo-Taxi" content="taxi">
+    <meta name="description" content="Site Description">
+    <meta name="keywords" content="taxi, car, ride, booking, service">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Md. Jahidul Islam Shawn">
+    <title>Hallo taxi</title>
+
+    <!-- css links -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<!-- header Start -->
+ <header>
+        <div class="container">
+            <!-- nav start -->
+            <nav class="navbar navbar-expand-lg c-nav fixed-top py-2">
+                <div class="container">
+                   <!-- logo -->
+                  <a class="navbar-brand logo" href="index.html"><img src="images/logo (1).png" alt="logo"></a>
+                    <!-- button -->
+                  <button class="navbar-toggler c-nav" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- menu -->
+                  <div class="collapse navbar-collapse menu" id="nav-content">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#services">Get a Cab</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#call">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- nav end -->
+        </div>
+ </header>
+<!-- header end -->
+
+<!-- banner start -->
+<section class="banner-booking">
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <h6>ENJOY COMFORTABLE TRIP</h6>
+    <h1>Order Taxi Online</h1>
+    <form class="booking-form">
+        <div class="booking-form-inputs">
+             <input class="mb-lg-2" type="text" placeholder="Start Destination" required>
+            <input class="mb-lg-2" type="text" placeholder="End Destination" required>
+            <input class="mb-lg-2" type="datetime-local" placeholder="Time and Date" required>
+            <select required>
+                <option value="">Services</option>
+                <option>Airport Transfer and Car Hire</option>
+                <option>Guided Tours and Transport</option>
+                <option>Door-To-Door Service to All Hotel</option>
+                <option>B&B Around Fort William</option>
+            </select>
+            <input class="mb-lg-2" type="text" placeholder="Your Phone" required>
+        </div>
+      <div class="form-check">
+        <input type="checkbox" id="agree" required>
+        <label for="agree">I agree that my submitted data is being collected and stored.</label>
+      </div>
+      <button type="submit">Book Now!</button>
+    </form>
+  </div>
+</section>
+<!-- banner end -->
+
+<!-- services start -->
+ <section class="what-we-offer py-5">
+  <div class="container text-center">
+    <h6 class="section-subtitle" style="color:#FFD600; letter-spacing:2px; font-weight:700;">WHAT WE OFFER</h6>
+    <h2 class="section-title fw-bold mb-3" style="font-size:2.8rem;">Welcome to “Hello-Taxi”</h2>
+    <p class="section-desc mb-5" style="max-width:700px; margin:auto;">
+      We are a fully licensed and well-experienced Taxi Service Provider in England.
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-12 mb-4 mb-md-0">
+        <div class="offer-box">
+          <img src="images/aeroplane.webp" alt="Address Pickup" class="mb-3" style="height:64px;">
+          <h4 class="fw-bold">Airport Transfer</h4>
+          <p>GetCab specialized in 24 hours airport transfer service.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 mb-4 mb-md-0">
+        <div class="offer-box">
+          <img src="images/tour-bus.webp" alt="Airport Transfer" class="mb-3" style="height:64px;">
+          <h4 class="fw-bold">Guided Tours</h4>
+          <p>We have experienced Guide to assist the client in a professional manner. </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 mb-4 mb-md-0">
+        <div class="offer-box">
+          <img src="images/pin-map.webp" alt="Long Distance" class="mb-3" style="height:64px;">
+          <h4 class="fw-bold">Hotel Service</h4>
+          <p>At home or hotel, our taxi reaches your doorstep whenever you need.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="offer-box">
+          <img src="images/castle.webp" alt="Taxi Tours" class="mb-3" style="height:64px;">
+          <h4 class="fw-bold">Fort William</h4>
+          <p>Our B&B services are available at Fort William.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services end -->
+
+<!-- service detail start -->
+<section class="pricing-section mt-5" id="services">
+  <h2 class="fw-bold mb-5">Time Quick and Easy to<br>Transportation</h2>
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+
+      <!-- Airport Transfer and Car Hire -->
+      <div class="col-md-3">
+        <div class="pricing-card h-100 text-center">
+          <div class="pricing-icon"><img src="images/aeroplane.webp" alt="Address Pickup" class="mb-3" style="height:64px;"></div>
+          <h3 class="fw-bold mx-2">Airport Transfer and Car Hire</h3>
+          <p class="mt-4">We provide convenient and professional service to all the airports in England. Our highly mannered drivers also assist you in travel plans and shifting luggage throughout the journey. They will ensure timely arrival at the airport to avoid unexpected disturbance.  </p>
+          <a href="#" class="btn btn-custom mt-3">Book Now</a>
+        </div>
+      </div>
+
+     <!-- Guided Tours and Transport -->
+      <div class="col-md-3">
+        <div class="pricing-card h-100 text-center">
+          <div class="pricing-icon"><img src="images/tour-bus.webp" alt="Airport Transfer" class="mb-3" style="height:64px;"></div>
+          <h3 class="fw-bold mx-2">Guided Tours and Transport</h3>
+          <p class="mt-4">We have experienced Guide to assist the client in a professional manner. Most of the passengers are feeling uncomfortable about the exact plan. Our team will be beside each one to lead them to the desired location with clean and well mannered Transport facilities.</p>
+          <a href="#" class="btn btn-custom mt-3">Book Now</a>
+        </div>
+      </div>
+
+      <!-- Door-To-Door Service to All Hotel -->
+      <div class="col-md-3">
+        <div class="pricing-card h-100 text-center">
+          <div class="pricing-icon"><img src="images/pin-map.webp" alt="Long Distance" class="mb-3" style="height:64px;"></div>
+          <h3 class="fw-bold">Door-To-Door Service to All Hotel</h3>
+          <p class="mt-2">We provide convenient and professional service to all the airports in England. Our highly mannered drivers also assist you in travel plans and shifting luggage throughout the journey. They will ensure timely arrival at the airport to avoid unexpected disturbance.  </p>
+          <a href="#" class="btn btn-custom mt-3">Book Now</a>
+        </div>
+      </div>
+
+      <!-- B&B Around Fort William -->
+      <div class="col-md-3">
+        <div class="pricing-card h-100 text-center">
+          <div class="pricing-icon"><img src="images/castle.webp" alt="Taxi Tours" class="mb-3" style="height:64px;"></div>
+          <h3 class="fw-bold mx-2">B&B Around Fort William</h3>
+          <p class="mt-4">Are you a traveler in England? Do you need a place to stay for a whole day? No worries, “Hello-Taxi” also has the concern about your stay and food. Our B&B services are available at Fort William. Everything is well mannered, net and clean and convenient for everyone.</p>
+          <a href="#" class="btn btn-custom mt-3">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- service detail end -->
+
+<!-- About Section Start -->
+<section class="about-taxi py-5 mt-5" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left: Image & Testimonial -->
+      <div class="col-lg-6 mb-4 mb-lg-0 position-relative align-items-end d-flex justify-content-center">
+        <img src="images/calling-taxi.webp" alt="Trusted Cab Service" class="img-fluid rounded-4 about-img" >
+        <div class="testimonial-box shadow p-4 bg-white rounded-4 position-absolute" style="left:20px; bottom:-60px; max-width:350px;">
+          <div style="border-left:4px solid #FFD600; padding-left:15px;">
+            <em>“Hello-Taxi” is the name of Reliability.</em>
+          </div>
+          <div class="mt-3 fw-bold">Chase Foster</div>
+        </div>
+      </div>
+      <!-- Right: Content -->
+      <div class="col-lg-6">
+        <div class="mb-4" style="color:#FFD600; font-weight:700;">About Hallo-Taxi</div>
+        <h2 class="fw-bold mb-3" style="font-size:2.8rem; color:#222;">Well-experienced Taxi Service Provider in England<span style="color:#FFD600;">.</span></h2>
+        <p class="mb-5" style="color:#666;">No matter if you are an individual or a group of people, large or small, business or family, we are here to facilitate you with efficient, clean, and professional Taxi Services in Fort William (England). We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers. We believe that you will be back again to get the services from us in Fort William (England). </p>
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box bg-warning text-dark rounded-3 d-flex align-items-center justify-content-center me-3" style="width:60px; height:60px; font-size:2rem;">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1">Customer Support</h5>
+            <p class="mb-0" style="color:#666;">We have a highly professional customer support team who are staying beside the clients. No matter where you are, we will reach you to drop you off at your destination.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center mt-4">
+          <img src="images/indian-operator-assistant-using-a-microphone-headset-while-conversing-with-a-customer.webp" alt="Profile" class="rounded-circle me-3" style="width:60px; height:60px; object-fit:cover;">
+          <div>
+            <div style="color:#888;">We Are Available 24 Hours</div>
+            <div class="fw-bold" style="font-size:1.4rem;">For Booking : <span style="color:#FFC000;">(+62) 8896-2220</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+
+<!-- newsletter start -->
+ <section class="taxi-section my-5">
+        <div class="text-content col-8">
+            <h2 class="fw-bold">Trustworthy Taxi Service</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        </div>
+        <div class="form-content">
+            <input type="email" placeholder="Email Address...">
+            <button>Subscribe Now</button>
+        </div>
+    </section>
+<!-- newsletter end -->
+
+<!-- special feature start -->
+   <section class="text-center py-5">
+    <p class="text-warning fw-bold mb-1">MAIN FEATURES</p>
+    <h2 class="fw-bold mb-5">Our Benefits</h2>
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Benefits -->
+        <div class="col-md-3 d-flex flex-column gap-5">
+          <div class="benefit-item text-md-start">
+            <div class="benefit-icon"><i class="fas fa-tag"></i></div>
+            <div class="benefit-title mt-3">Good Discount May be Available</div>
+            <div class="benefit-text">It is pretty normal that customers are seeking a discount, that’s why in some cases we offer a discount for them. So, don't worry about the payment, just come forward for the better services.
+</div>
+          </div>
+          <div class="benefit-item text-md-start">
+            <div class="benefit-icon"><i class="fas fa-receipt"></i></div>
+            <div class="benefit-title mt-3">Long Run Hire for your business</div>
+            <div class="benefit-text">You can hire our services for your business or corporate. We provide Drivers and Cars for a month and more in a convenient way. A small step from your side can ensure a quality service for you.</div>
+          </div>
+        </div>
+
+        <!-- Taxi Image -->
+        <div class="col-md-6 my-4 my-md-0">
+          <img src="images/car.webp" class="img-fluid" alt="Taxi Image">
+        </div>
+
+        <!-- Right Benefits -->
+        <div class="col-md-3 d-flex flex-column gap-5">
+          <div class="benefit-item text-md-start">
+            <div class="benefit-icon"><i class="fas fa-thumbs-up"></i></div>
+            <div class="benefit-title mt-3">Reliable and Friendly Service</div>
+            <div class="benefit-text">Our services are very professional but in a friendly manner. Every Driver has completed their professional licensed courses. Besides, they are well trained in Soft Skills.</div>
+          </div>
+          <div class="benefit-item text-md-start">
+            <div class="benefit-icon"><i class="fas fa-globe"></i></div>
+            <div class="benefit-title mt-3">Nationwide</div>
+            <div class="benefit-text">Our services are very professional but in a friendly manner. Every Driver has completed their professional licensed courses. Besides, they are well trained in Soft Skills.
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- special feature end -->
+
+<!--  testimonial start -->
+ <section class="testimonial-section py-5" data-type="background" data-speed="5" id="testimonial">
+  <div class="container testimonial-content text-center">
+    <p class="text-warning fw-bold mb-2">Customers Feedback</p>
+    <h2 class="fw-bold text-white mb-4">Our Customer Reviews<span class="text-warning">.</span></h2>
+    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua erat libero condimentum metus.</p>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=10" alt="User 1">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Dave Beech</div>
+                <div class="testimonial-role">Manager</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=20" alt="User 2">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Xavier Mcfarla</div>
+                <div class="testimonial-role">CEO Brand</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=32" alt="User 3">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Jordan Rein</div>
+                <div class="testimonial-role">Entrepreneur</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=7" alt="User 4">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Linda Carter</div>
+                <div class="testimonial-role">Manager</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=13" alt="User 5">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Samuel Ricks</div>
+                <div class="testimonial-role">CEO Brand</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <img src="https://i.pravatar.cc/100?img=19" alt="User 6">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="testimonial-name mt-3">Rebecca Lane</div>
+                <div class="testimonial-role">Entrepreneur</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--  testimonial end -->
+
+<!-- call-to-action start -->
+     <section class="call-section py-5" id="call">
+      <div class="call-text">
+        <h5 class="small-text">Call 24-Hour Service Available</h5>
+        <h2 class="fw-bolder my-3">Call Now & Book Your Taxi For Your Next Ride.</h2>
+        <div class="fw-bolder d-flex justify-content-center call-p"><i class="fas fa-phone phone-icon"></i><p class="mb-0">(021) 111 444 90</p></div>
+      </div>
+    </section>
+<!-- call-to-action end -->
+
+<!-- footer start -->
+  <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Address</h5>
+                    <p>9 ######$$$ $$$$$$$$, Test Gloria, ##### Ohio.POSTCODE PH11 456,  ENGLAND (U.K)</p>
+                </div>
+                <div class="col">
+                    <h5>Contact</h5>
+                    <p><i class="fas fa-envelope"></i> mail@company.com</p>
+                    <p><i class="fas fa-phone"></i>01### 777### <br>07555 000000</p>
+                </div>
+                <div class="col">
+                    <h5>Work</h5>
+                    <p>Mon - Sat: 08:00 - 18:00</p>
+                    <p>Sun: 09:00 - 18:00</p>
+                </div>
+                <div class="col">
+                    <h5>Newsletter</h5>
+                    <div class="input-group mb-3 justify-content-center">
+                        <input type="email" class="email-input" placeholder="Email Address">
+                        <button class="send-icon"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="logo mt-3"><img src="images/logo (1).png" alt="logo"></div>
+            <div class="bottom-text">
+                <p>© 2025 Hallo-Taxi by JahidShawn</p>
+                <p class="mt-2"><a href="#" style="color: #ccc;">Privacy Policy</a> | <a href="#" style="color: #ccc;">Terms Condition</a></p>
+            </div>
+        </div>
+    </footer>
+<!-- footer end -->
+  
+    <!-- js links -->
+     <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
